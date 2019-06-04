@@ -1,0 +1,22 @@
+
+
+Codigo base: 
+	sistema de control de version
+	dependencias mediante fichero
+	no se asume que el entorno tendra las dependencias instaladas por default 
+	Configuraciones deben ir dentro de un fichero de conf. 
+	debemos conocer los Backing services como base de datos sin necesidad de saber donde esta. 
+	Construir, desplegar y ejecutar
+	Procesos: nuestros servicios se deben ejecutar como procesos. 
+	asignacion de puertos (autocontenida) no podemos depender de otros 
+	concurriencia, nuestra app tiene que crecer horizontalmente 
+	desechabilidad: se debe poder arrancar y parar muy rapido 
+	Paridad de desarrollo y produccion (e
+	logs se deben escribir como si fueran un evento
+	Administracion de  procesos, (debe estar contenido de la misma app o integrada)
+
+	
+	
+
+
+
