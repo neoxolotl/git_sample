@@ -1,5 +1,5 @@
-VAR=1
+
 git add --all .
-git commit -m  $VAR 
+git commit -m  'Describe: '$1
 git push
 
